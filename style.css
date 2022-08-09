@@ -41,6 +41,7 @@ main{
     margin: 5px;
     border: 1px solid white;
     background-color: white;
+    border-radius: 20%;
     padding: 10px 15px;
     font-size: 22px;
     
@@ -50,19 +51,24 @@ main{
     margin-top: 20px;
     width: 200px;
     height: 50px;
-    
     align-self: center;
     
 }
 
 .result{
-    
+    margin-top: 20px;
 }
 
 .btn-rmv{
-
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    align-self: center;
 }
 
 .btn-res{
-
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    align-self: center;
 }

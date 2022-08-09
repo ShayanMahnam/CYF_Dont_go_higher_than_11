@@ -1,6 +1,12 @@
 var dice, rolls, item, total;
 const audio = new Audio();
 audio.src = "./sounds/dice.mp3";
+const audioL = new Audio();
+audioL.src = "./sounds/lost.wav";
+const audioW = new Audio();
+audioW.src = "./sounds/win.wav";
+const audioO = new Audio();
+audioO.src = "./sounds/woosh.wav";
 
 // Describe this function...
 function do_the_rolls() {
@@ -21,6 +27,7 @@ function do_the_rolls() {
     let element_info = document.getElementById('info');
     element_info.innerText = 'You win!';
     element_info.style.backgroundColor = '#66ff99';
+    audioW.play();
   } else if (total < 11) {
     let element_info2 = document.getElementById('info');
     element_info2.innerText = 'Keep playing!';
@@ -29,6 +36,7 @@ function do_the_rolls() {
     let element_info3 = document.getElementById('info');
     element_info3.innerText = 'You lost!';
     element_info3.style.backgroundColor = '#ff6666';
+    audioL.play();
   }
 }
 
@@ -56,7 +64,7 @@ document.getElementById('button_roll').addEventListener('click', (event) => {
 document.getElementById('button_remove').addEventListener('click', (event) => {
   rolls.pop();
   do_the_rolls();
-
+  audioO.play();
 });
 
 document.getElementById('button_restart').addEventListener('click', (event) => {
