@@ -7,3 +7,27 @@
 body{
     background-color: #347d45;
 }
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+header h1{
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+    font-size: 22px;
+    padding: 10px 15px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    gap: 2px;
+    padding-top: 20px;
+    grid-auto-flow: dense;
+}
+
+
