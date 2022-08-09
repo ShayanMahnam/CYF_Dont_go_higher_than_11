@@ -41,7 +41,7 @@ main{
     padding-top: 20px;
 }
 .diceList li{
-    display: inline;
+    display: inline-flex;
     margin: 5px;
     border: 1px solid white;
     background-color: white;
