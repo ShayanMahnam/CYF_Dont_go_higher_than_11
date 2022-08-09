@@ -12,10 +12,11 @@ header{
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header h1{
-    border: 2px solid goldenrod;
+    border: 2px double gold;
     background-color: goldenrod;
     font-size: 22px;
     padding: 10px 15px;
@@ -23,11 +24,14 @@ header h1{
 
 main{
     text-align: center;
-    padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
+    border: 5px double white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 50%;
 }
 
 .ttl{
@@ -71,4 +75,12 @@ main{
     width: 200px;
     height: 50px;
     align-self: center;
+}
+
+.result-text{
+
+}
+
+.total-num{
+
 }
