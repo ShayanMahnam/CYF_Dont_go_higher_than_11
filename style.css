@@ -22,12 +22,42 @@ header h1{
 }
 
 main{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 200px 200px 200px 200px 200px;
-    gap: 2px;
-    padding-top: 20px;
-    grid-auto-flow: dense;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.ttl{
+     font-size: 25px;
+}
+.diceList{
+    padding-top: 20px;
+}
+.diceList li{
+    display: inline;
+    margin: 5px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 22px;
+    
+}
 
+.btn-roll{
+    margin-top: 20px;
+    
+    
+}
+
+.result{
+    
+}
+
+.btn-rmv{
+
+}
+
+.btn-res{
+
+}
