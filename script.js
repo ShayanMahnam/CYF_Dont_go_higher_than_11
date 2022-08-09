@@ -1,4 +1,6 @@
 var dice, rolls, item, total;
+const audio = new Audio();
+audio.src = "./sounds/dice.mp3";
 
 // Describe this function...
 function do_the_rolls() {
@@ -48,7 +50,7 @@ rolls = [];
 document.getElementById('button_roll').addEventListener('click', (event) => {
   rolls.push(randomMember(dice));
   do_the_rolls();
-
+  audio.play();
 });
 
 document.getElementById('button_remove').addEventListener('click', (event) => {

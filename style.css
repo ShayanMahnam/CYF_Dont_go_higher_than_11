@@ -26,6 +26,8 @@ main{
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .ttl{
@@ -46,7 +48,10 @@ main{
 
 .btn-roll{
     margin-top: 20px;
+    width: 200px;
+    height: 50px;
     
+    align-self: center;
     
 }
 
