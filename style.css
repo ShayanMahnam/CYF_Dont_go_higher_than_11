@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Patrick+Hand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 *{
     padding: 0;
@@ -8,7 +9,7 @@
 }
 
 body{
-    background-color: #347d45;
+    background-color: #76BA99;
 }
 
 header{
@@ -20,10 +21,13 @@ header{
 
 header h1{
     border: 2px double gold;
-    background-color: goldenrod;
-    font-size: 22px;
+    background-color: #CA955C;
+    color: black;
+    font-size: 67px;
     padding: 10px 15px;
-    font-family: 'Alumni Sans Inline One', cursive;
+    width: 50%;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
 }
 
 main{
@@ -32,7 +36,8 @@ main{
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    border: 5px double white;
+    border: 5px double #876445;
+    background-color: #EDDFB3;
     padding-top: 20px;
     padding-bottom: 40px;
     width: 50%;
@@ -40,6 +45,7 @@ main{
 
 .ttl{
      font-size: 25px;
+     font-family: 'Bebas Neue', sans-serif;
 }
 .diceList{
     padding-top: 20px;
@@ -47,7 +53,7 @@ main{
 .diceList li{
     display: inline-flex;
     margin: 5px;
-    border: 1px solid #e6ddd5;
+    border: 1px solid black;
     background-color: #e6ddd5;
     border-radius: 20%;
     padding: 10px 15px;
@@ -66,7 +72,7 @@ main{
 
 .result{
     margin-top: 20px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', sans-serif;
 }
 
 .btn-rmv{
