@@ -37,6 +37,7 @@ function do_the_rolls() {
     element_info3.innerText = 'You lost!';
     element_info3.style.color = '#ff6666';
     audioL.play();
+
   }
 }
 
@@ -70,5 +71,4 @@ document.getElementById('button_remove').addEventListener('click', (event) => {
 document.getElementById('button_restart').addEventListener('click', (event) => {
   rolls = [];
   do_the_rolls();
-
 });
