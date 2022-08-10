@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Patrick+Hand&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -20,6 +23,7 @@ header h1{
     background-color: goldenrod;
     font-size: 22px;
     padding: 10px 15px;
+    font-family: 'Alumni Sans Inline One', cursive;
 }
 
 main{
@@ -62,6 +66,7 @@ main{
 
 .result{
     margin-top: 20px;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .btn-rmv{
