@@ -73,6 +73,7 @@ main{
 .result{
     margin-top: 20px;
     font-family: 'Patrick Hand', sans-serif;
+    font-size: 32px;
 }
 
 .btn-rmv{
@@ -88,11 +89,6 @@ main{
     height: 50px;
     align-self: center;
 }
-
 .result-text{
-
-}
-
-.total-num{
-
+    font-size: 50px;
 }

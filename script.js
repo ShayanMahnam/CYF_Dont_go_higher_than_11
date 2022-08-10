@@ -26,16 +26,16 @@ function do_the_rolls() {
   if (total == 11) {
     let element_info = document.getElementById('info');
     element_info.innerText = 'You win!';
-    element_info.style.backgroundColor = '#66ff99';
+    element_info.style.color = '#0b4f10';
     audioW.play();
   } else if (total < 11) {
     let element_info2 = document.getElementById('info');
     element_info2.innerText = 'Keep playing!';
-    element_info2.style.backgroundColor = '#ffff66';
+    element_info2.style.color = '#000';
   } else {
     let element_info3 = document.getElementById('info');
     element_info3.innerText = 'You lost!';
-    element_info3.style.backgroundColor = '#ff6666';
+    element_info3.style.color = '#ff6666';
     audioL.play();
   }
 }
