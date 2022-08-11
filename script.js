@@ -27,6 +27,7 @@ function do_the_rolls() {
     let element_info = document.getElementById('info');
     element_info.innerText = 'You win!';
     element_info.style.color = '#0b4f10';
+    audioW.currentTime = 0;
     audioW.play();
     document.getElementById("button_roll").disabled = true;
   } else if (total < 11) {
@@ -38,6 +39,7 @@ function do_the_rolls() {
     let element_info3 = document.getElementById('info');
     element_info3.innerText = 'You lost!';
     element_info3.style.color = '#ff6666';
+    audioL.currentTime = 0;
     audioL.play();
     document.getElementById("button_roll").disabled = true;
   }
@@ -61,12 +63,14 @@ rolls = [];
 document.getElementById('button_roll').addEventListener('click', (event) => {
   rolls.push(randomMember(dice));
   do_the_rolls();
+  audio.currentTime = 0;
   audio.play();
 });
 
 document.getElementById('button_remove').addEventListener('click', (event) => {
   rolls.pop();
   do_the_rolls();
+  audioO.currentTime = 0;
   audioO.play();
 });
 
