@@ -30,6 +30,7 @@ function do_the_rolls() {
     audioW.currentTime = 0;
     audioW.play();
     document.getElementById("button_roll").disabled = true;
+    document.getElementById("button_remove").disabled = true;
   } else if (total < 11) {
     let element_info2 = document.getElementById('info');
     element_info2.innerText = 'Keep playing!';
