@@ -75,12 +75,12 @@ main{
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 22px;
     text-align: center;
-    cursor: pointer;
+    
     transition: all .5s ease-in-out;
 }
 .btn-roll:hover{
     background-color: gold;
-    
+    cursor: pointer;
 }
 .btn-roll[disabled]:hover {
     background-color: #CA955C;
@@ -104,11 +104,12 @@ main{
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 22px;
     text-align: center;
-    cursor: pointer;
+    
     transition: all .5s ease-in-out;
 }
 .btn-rmv:hover{
     background-color: #ff6666;
+    cursor: pointer;
 }
 .btn-rmv[disabled]:hover {
     background-color: #CA955C;
