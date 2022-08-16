@@ -152,16 +152,8 @@ footer{
     font-size: small;
 }
 
-.hm{
 
-    display: inline-flex;
-    justify-content: center;
-    
-}
-.hm .menu-btn{
-    display: inline-flex;
-    justify-content: space-between;
-}
+
 
 
 /* burger menu */
