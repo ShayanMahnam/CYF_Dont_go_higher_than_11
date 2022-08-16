@@ -1,3 +1,19 @@
+const menuBtn = document.querySelector('.menu-btn');
+let menuOpen = false;
+const navbar = document.querySelector('.navbar')
+menuBtn.addEventListener('click', () => {
+    if(!menuOpen) {
+        menuBtn.classList.add('open');
+        menuOpen = true;
+    } else {
+        menuBtn.classList.remove('open');
+        menuOpen = false;
+    }
+});
+menuBtn.addEventListener('click', () => {
+    navbar.classList.toggle('change');
+} );
+
 var dice, rolls, item, total;
 const audio = new Audio();
 audio.src = "./sounds/dice.mp3";
@@ -80,3 +96,4 @@ document.getElementById('button_restart').addEventListener('click', (event) => {
   do_the_rolls();
   document.getElementById("button_remove").disabled = false;
 });
+
