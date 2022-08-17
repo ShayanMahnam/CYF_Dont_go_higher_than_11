@@ -78,14 +78,7 @@ main{
     
     transition: all .5s ease-in-out;
 }
-.btn-roll:hover{
-    background-color: gold;
-    cursor: pointer;
-}
-.btn-roll[disabled]:hover {
-    background-color: #CA955C;
-    cursor: default;
-}
+
 
 .result{
     margin-top: 20px;
@@ -107,14 +100,7 @@ main{
     
     transition: all .5s ease-in-out;
 }
-.btn-rmv:hover{
-    background-color: #ff6666;
-    cursor: pointer;
-}
-.btn-rmv[disabled]:hover {
-    background-color: #CA955C;
-    cursor: default;
-}
+
 
 .btn-res{
     margin-top: 20px;
@@ -131,10 +117,6 @@ main{
     transition: all .5s ease-in-out;
 }
 
-.btn-res:hover{
-    background-color: #76BA99;
-}
-
 .result-text{
     font-size: 50px;
 }
@@ -147,3 +129,54 @@ footer{
     text-align: center;
     font-size: small;
 }
+
+@media (hover: hover) { 
+    .btn-roll:hover{
+        background-color: gold;
+        cursor: pointer;
+    }
+    .btn-roll[disabled]:hover {
+        background-color: #CA955C;
+        cursor: default;
+    }
+    .btn-rmv:hover{
+        background-color: #ff6666;
+        cursor: pointer;
+    }
+    .btn-rmv[disabled]:hover {
+        background-color: #CA955C;
+        cursor: default;
+    }
+    .btn-res:hover{
+        background-color: #76BA99;
+    }
+  }
+
+  @media screen and (max-width: 740px){
+    header h1{
+        font-size: 40px;
+    }
+    .ttl{
+        font-size: 20px;
+        
+   }
+    .btn-roll{
+        margin-top: 120px;
+        width: 150px;
+        font-size: 18px;
+    }
+    .btn-rmv{
+        width: 150px;
+        font-size: 18px;
+    }
+    .btn-res{
+        width: 150px;
+        font-size: 18px;
+    }
+    .result{
+        font-size: 20px;
+    }
+    .result-text{
+        font-size: 32px;
+    }
+  }
